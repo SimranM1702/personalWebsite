@@ -1,0 +1,81 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+    margin: 20px 0;
+}
+
+main {
+    margin-top: 50px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #ff7518;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #f0e68c;
+}
+
+footer p {
+    font-size: 1.5em;
+    margin-top: 50px;
+    color: #ff7518;
+}
+
+/* Halloween decorations */
+.pumpkin-section {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border: 3px solid orange;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px orange;
+}
+
+.decorations {
+    margin-top: 40px;
+}
+
+.pumpkin {
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.bats {
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.pumpkin:hover, .bats:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* Background and text effects */
+body {
+    background-image: url('https://image.shutterstock.com/image-photo/scary-night-background-full-moon-600w-1460592150.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, p, footer p {
+    text-shadow: 2px 2px 5px black;
+}
